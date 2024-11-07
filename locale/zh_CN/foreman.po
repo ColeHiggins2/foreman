@@ -1809,6 +1809,9 @@ msgstr "已复制到剪贴板"
 msgid "Copied!"
 msgstr "已复制！"
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr "复制到剪贴板"
 
@@ -2767,6 +2770,9 @@ msgstr "下载 VMRC"
 msgid "Download generated report"
 msgstr "下载生成的报告"
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr "下载生成的报告"
 
@@ -2884,8 +2890,8 @@ msgstr "启用选择主机的告警"
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr "如果是别名或 VLAN 接口则启用，注：别名只能用于静态引导模式子网"
 
-msgid "Enable insecure argument for the initial curl"
-msgstr "为初始 curl 启用不安全的参数"
+msgid "Enable insecure argument for the initial curl/wget"
+msgstr ""
 
 msgid "Enable rebuild on next host boot"
 msgstr "启用开机重建"
@@ -3685,6 +3691,9 @@ msgstr "论坛"
 
 msgid "Found %{count} reports from the last %{days} days"
 msgstr "在过去 %{days} 天中找到 %{count} 个报告"
+
+msgid "FreeIPA"
+msgstr ""
 
 msgid "Full"
 msgstr "完全的"
@@ -4735,6 +4744,9 @@ msgstr "图像ID"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
 msgstr "由计算资源提供的镜像 ID，例如：ami-.."
+
+msgid "Image not found"
+msgstr ""
 
 msgid "Image path"
 msgstr "镜像路径"
@@ -7889,8 +7901,8 @@ msgstr "删除标签"
 msgid "Remove widget"
 msgstr "删除小插件"
 
-msgid "Removed %{from} to %{to}"
-msgstr "移除 %{from} 至 %{to}"
+msgid "Removed %{from} from %{to}"
+msgstr ""
 
 msgid "Removed assignment of host group from %s host"
 msgid_plural "Removed assignment of host group from %s hosts"
@@ -8585,14 +8597,14 @@ msgstr "为主机设置 'host_registration_remote_execution' 参数。如果将�
 msgid "Set IP addresses for %s"
 msgstr "为 %s 设置 IP 地址"
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr "为来自 Foreman 的所有传出 HTTP(S) 连接设置代理。系统范围的代理必须在操作系统一级配置。"
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr "在 VNC 显示连接上设置随机生成的密码"
 
 msgid "Set a randomly generated password on the display connection"
 msgstr "在显示连接中设定随机创建的密码"
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
+msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
 msgstr "设置请求不需要被代理的主机名。到本地主机的请求会被默认排除。"
@@ -8683,6 +8695,9 @@ msgstr "快捷键"
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
 msgstr "是否应在下次运行安装程序模块时执行 `foreman-rake db:seed`？"
+
+msgid "Should the value be hidden"
+msgstr "是否应隐藏此值"
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
 msgstr "该值应该对用户隐藏吗？对于敏感输入值（例如密码）很有用。仅适用于 Plain 值类型。"
@@ -9679,8 +9694,8 @@ msgstr "ERB 标记内的 Ruby 代码通常包含表达式。它们由程序流�
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr "用于在 OpenID 供应商中用来对 JWT 进行编码的算法。"
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
-msgstr "身份验证过程目前需要一个 LDAP 供应商，如 {FreeIPA}、{OpenLDAP} 或 {Microsoft}。"
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
+msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
 msgstr "您的外部用户组的认证源无法通过提供的凭证连接到 LDAP。请验证凭证仍然有效。"
@@ -9705,6 +9720,9 @@ msgstr "数据删除无法撤消，确定要继续吗？"
 
 msgid "The default administrator email address"
 msgstr "管理员默认邮箱"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr "最终条目，操作系统默认值，可以通过编辑 %s 页设置。"
@@ -10441,6 +10459,9 @@ msgstr "统一"
 msgid "Unknown"
 msgstr "未知"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr "未知 IPAM 类型 - 无法继续"
 
@@ -10479,9 +10500,6 @@ msgstr "在数据库中找到未知记录"
 
 msgid "Unknown status: %s"
 msgstr "未知状态：%s"
-
-msgid "Unkown '%{klass}' resource class"
-msgstr "Unkown '%{klass}' 资源类"
 
 msgid "Unlimited?"
 msgstr "無限制？"

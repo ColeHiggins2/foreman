@@ -1818,6 +1818,9 @@ msgstr ""
 msgid "Copied!"
 msgstr ""
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr ""
 
@@ -2777,6 +2780,9 @@ msgstr ""
 msgid "Download generated report"
 msgstr ""
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr ""
 
@@ -2894,7 +2900,7 @@ msgstr "啟用所選主機的警示"
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr "若這是個別名或是 VLAN 介面卡的話，將它啟用。請注意別名僅可以用在靜態啟動模式的子網路中"
 
-msgid "Enable insecure argument for the initial curl"
+msgid "Enable insecure argument for the initial curl/wget"
 msgstr ""
 
 msgid "Enable rebuild on next host boot"
@@ -3698,6 +3704,9 @@ msgstr ""
 
 msgid "Found %{count} reports from the last %{days} days"
 msgstr "找到 %{count} 份報告，從過去 %{days} 天內"
+
+msgid "FreeIPA"
+msgstr ""
 
 msgid "Full"
 msgstr "完整"
@@ -4747,6 +4756,9 @@ msgstr "映像檔 ID"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
 msgstr "由運算資源所提供的映像檔 ID，例如 ami-.."
+
+msgid "Image not found"
+msgstr ""
 
 msgid "Image path"
 msgstr "映像檔路徑"
@@ -7890,7 +7902,7 @@ msgstr ""
 msgid "Remove widget"
 msgstr ""
 
-msgid "Removed %{from} to %{to}"
+msgid "Removed %{from} from %{to}"
 msgstr ""
 
 msgid "Removed assignment of host group from %s host"
@@ -8590,14 +8602,14 @@ msgstr ""
 msgid "Set IP addresses for %s"
 msgstr ""
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr ""
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr ""
 
 msgid "Set a randomly generated password on the display connection"
 msgstr "在顯示連線上設置一組隨機產生的密碼"
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
+msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
 msgstr ""
@@ -8688,6 +8700,9 @@ msgstr ""
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
 msgstr "`foreman-rake db:seed` 是否應該在安裝程式模組下次運作時執行？"
+
+msgid "Should the value be hidden"
+msgstr ""
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
 msgstr ""
@@ -9687,7 +9702,7 @@ msgstr ""
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr ""
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
 msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
@@ -9713,6 +9728,9 @@ msgstr ""
 
 msgid "The default administrator email address"
 msgstr "預設的管理員電子郵件地址"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr "最後的項目「作業系統預設值」可透過編輯 %s 頁面來設置。"
@@ -10448,6 +10466,9 @@ msgstr ""
 msgid "Unknown"
 msgstr "不明"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr ""
 
@@ -10485,9 +10506,6 @@ msgid "Unknown records found in the database"
 msgstr ""
 
 msgid "Unknown status: %s"
-msgstr ""
-
-msgid "Unkown '%{klass}' resource class"
 msgstr ""
 
 msgid "Unlimited?"

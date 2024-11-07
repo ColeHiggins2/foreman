@@ -26,12 +26,13 @@
 # c2208e8ff849df3dc915749e5c910fa8_6726102 <f9c4b365e023d2bd377bf8a34684fbe5_106337>, 2013
 # Valeria S Silva <valeriassilva@live.com>, 2015
 # Victor Lantier <victor@vermillion.net.br>, 2016
+# Waldirio M Pinheiro, 2024
 msgid ""
 msgstr ""
 "Project-Id-Version: Foreman\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2013-04-24 11:26+0000\n"
-"Last-Translator: Fabio Dias, 2015,2023\n"
+"Last-Translator: Waldirio M Pinheiro, 2024\n"
 "Language-Team: Portuguese (Brazil) (http://app.transifex.com/foreman/foreman/l"
 "anguage/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -480,7 +481,7 @@ msgid "API documentation"
 msgstr "Documentação da API"
 
 msgid "About"
-msgstr "A respeito"
+msgstr "Sobre"
 
 msgid "Absolute command path must be specified: %s"
 msgstr ""
@@ -1872,6 +1873,9 @@ msgstr ""
 msgid "Copied!"
 msgstr ""
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr "Copiar para área de transferência"
 
@@ -2611,7 +2615,7 @@ msgid "Delete host?"
 msgstr ""
 
 msgid "Delete multiple hosts"
-msgstr ""
+msgstr "Remover vários servidores"
 
 msgid "Delete realm entry for %s"
 msgstr "Remover entrada do realm para %s"
@@ -2832,6 +2836,9 @@ msgstr "Fazer download do VMRC"
 msgid "Download generated report"
 msgstr "Fazer download de relatório gerado"
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr "Faz download de um relatório gerado"
 
@@ -2949,7 +2956,7 @@ msgstr "Habilitar alertas para os hosts selecionados"
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr "Habilitar se este for um alias ou uma interface VLAN, observe que este alias pode ser usado somente com a subrede do modo de inicialização estático "
 
-msgid "Enable insecure argument for the initial curl"
+msgid "Enable insecure argument for the initial curl/wget"
 msgstr ""
 
 msgid "Enable rebuild on next host boot"
@@ -3754,6 +3761,9 @@ msgstr "Fóruns"
 
 msgid "Found %{count} reports from the last %{days} days"
 msgstr "%{count} relatórios localizados dos últimos %{days} dias"
+
+msgid "FreeIPA"
+msgstr ""
 
 msgid "Full"
 msgstr "Completo"
@@ -4810,6 +4820,9 @@ msgstr "ID da Imagem"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
 msgstr "ID da Imagem fornecida pelo recurso de computação, por exemplo, AMI- .. "
+
+msgid "Image not found"
+msgstr ""
 
 msgid "Image path"
 msgstr "Caminho de Imagem"
@@ -7970,8 +7983,8 @@ msgstr ""
 msgid "Remove widget"
 msgstr ""
 
-msgid "Removed %{from} to %{to}"
-msgstr "Removido de %{from} a %{to}"
+msgid "Removed %{from} from %{to}"
+msgstr ""
 
 msgid "Removed assignment of host group from %s host"
 msgid_plural "Removed assignment of host group from %s hosts"
@@ -8673,14 +8686,14 @@ msgstr ""
 msgid "Set IP addresses for %s"
 msgstr "Definir endereços IP para %s"
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr ""
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr "Definir uma senha gerada aleatoriamente na conexão de exibição VCN"
 
 msgid "Set a randomly generated password on the display connection"
 msgstr "Definir uma senha gerada aleatóriamente na conexão de exibição"
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
+msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
 msgstr "Definir nomes de hosts aos quais as solicitações não podem sofrer proxy. As solicitações para o host local são excluídas por padrão."
@@ -8771,6 +8784,9 @@ msgstr ""
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
 msgstr "O `foreman-rake db:migrate`deve ser migrado na próxima execução dos módulos instaladores?"
+
+msgid "Should the value be hidden"
+msgstr "Caso o valor esteja oculto"
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
 msgstr "O valor deve ser ocultado dos usuário? Útil para valores de entrada confidenciais, como senhas. Aplicável apenas a tipos de valores Simples."
@@ -9772,7 +9788,7 @@ msgstr ""
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr "O algoritmo usado para codificar o JWT no provedor do OpenID."
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
 msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
@@ -9798,6 +9814,9 @@ msgstr "Não é possível desfazer a exclusão de dados, tem certeza de que dese
 
 msgid "The default administrator email address"
 msgstr "O endereço de email padrão do administrador"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr "A entrada final, padrão do Sistema Operacional, pode ser definida editando a página %s. "
@@ -10540,6 +10559,9 @@ msgstr ""
 msgid "Unknown"
 msgstr "Desconhecido"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr "Tipo IPAM desconhecido - impossível continuar"
 
@@ -10578,9 +10600,6 @@ msgstr "Registros desconhecidos encontrados no banco de dados"
 
 msgid "Unknown status: %s"
 msgstr "Status desconhecido: %s"
-
-msgid "Unkown '%{klass}' resource class"
-msgstr ""
 
 msgid "Unlimited?"
 msgstr "Ilimitado?"

@@ -1809,6 +1809,9 @@ msgstr "クリップボードにコピーしました"
 msgid "Copied!"
 msgstr "コピーしました!"
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr "クリップボードへのコピー"
 
@@ -2767,6 +2770,9 @@ msgstr "VMRC のダウンロード"
 msgid "Download generated report"
 msgstr "生成したレポートのダウンロード"
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr "生成したレポートをダウンロードします"
 
@@ -2884,8 +2890,8 @@ msgstr "選択ホストに対する警告の有効化"
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr "これがエイリアスまたは VLAN インターフェースである場合に有効になります。エイリアスは静的起動モードサブネットとともにのみ使用できます"
 
-msgid "Enable insecure argument for the initial curl"
-msgstr "最初の curl に対して安全でない引数を有効にする"
+msgid "Enable insecure argument for the initial curl/wget"
+msgstr ""
 
 msgid "Enable rebuild on next host boot"
 msgstr "次回のホスト起動時の再ビルドを有効化"
@@ -3685,6 +3691,9 @@ msgstr "フォーラム"
 
 msgid "Found %{count} reports from the last %{days} days"
 msgstr "過去 %{days} 日以内では %{count} 件のレポートが見つかりました"
+
+msgid "FreeIPA"
+msgstr ""
 
 msgid "Full"
 msgstr "すべて"
@@ -4735,6 +4744,9 @@ msgstr "イメージ ID"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
 msgstr "コンピュートリソースによって提供されるイメージ ID (例: ami-..)"
+
+msgid "Image not found"
+msgstr ""
 
 msgid "Image path"
 msgstr "イメージパス"
@@ -7889,8 +7901,8 @@ msgstr "タグの削除"
 msgid "Remove widget"
 msgstr "ウィジェットの削除"
 
-msgid "Removed %{from} to %{to}"
-msgstr "%{to} に %{from} を削除しました"
+msgid "Removed %{from} from %{to}"
+msgstr ""
 
 msgid "Removed assignment of host group from %s host"
 msgid_plural "Removed assignment of host group from %s hosts"
@@ -8585,14 +8597,14 @@ msgstr "ホストの「host_registration_remote_execution」パラメーター�
 msgid "Set IP addresses for %s"
 msgstr "%s の IP アドレスの設定"
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr "Foreman からの HTTP(S) 送信接続すべてにプロキシーを設定します。システム全体のプロキシーはオペレーティングシステムレベルで設定する必要があります。"
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr "VNC ディスプレイ接続時にランダムに生成されたパスワードを設定します"
 
 msgid "Set a randomly generated password on the display connection"
 msgstr "ディスプレイ接続時にランダムに生成されたパスワードを設定します"
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
+msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
 msgstr "プロキシー化されていない要求にホスト名を設定します。デフォルトでは、ローカルホストへの要求は除外されます"
@@ -8683,6 +8695,9 @@ msgstr "ショートカット"
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
 msgstr "インストーラーモジュールの次回実行時に `foreman-rake db:seed` を実行する必要がありますか?"
+
+msgid "Should the value be hidden"
+msgstr "値を非表示にする必要があります"
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
 msgstr "この値をユーザーに表示されないようにしますか? パスワードなど、機密情報の入力値に便利です。プレーン値のタイプにのみ該当します。"
@@ -9679,8 +9694,8 @@ msgstr "ERB タグ内の Ruby コードには通常、式が含まれます。�
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr "OpenID プロバイダーで JWT をエンコードするために使用されるアルゴリズム。"
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
-msgstr "現在、認証プロセスには、{FreeIPA}、{OpenLDAP}、{Microsoft} などの LDAP プロバイダーが必要です。"
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
+msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
 msgstr "外部ユーザーグループの認証ソースは、指定の認証情報で LDAP に接続できませんでした。認証情報がまだ有効であることを確認してください。"
@@ -9705,6 +9720,9 @@ msgstr "データを削除すると元に戻せません。続行してもよろ
 
 msgid "The default administrator email address"
 msgstr "デフォルトの管理者メールアドレス"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr "最終エントリーのオペレーティングシステムのデフォルトは、%s ページを編集して設定できます。"
@@ -10441,6 +10459,9 @@ msgstr "統一"
 msgid "Unknown"
 msgstr "不明"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr "不明な IPAM タイプ - 続行できません"
 
@@ -10479,9 +10500,6 @@ msgstr "データベースで不明なレコードが見つかりました"
 
 msgid "Unknown status: %s"
 msgstr "不明なステータス: %s"
-
-msgid "Unkown '%{klass}' resource class"
-msgstr "不明な '%{klass}' リソースクラスです"
 
 msgid "Unlimited?"
 msgstr "無制限ですか?"

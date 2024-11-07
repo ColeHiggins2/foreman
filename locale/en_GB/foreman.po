@@ -1815,6 +1815,9 @@ msgstr ""
 msgid "Copied!"
 msgstr ""
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr ""
 
@@ -2774,6 +2777,9 @@ msgstr ""
 msgid "Download generated report"
 msgstr ""
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr ""
 
@@ -2891,7 +2897,7 @@ msgstr ""
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr ""
 
-msgid "Enable insecure argument for the initial curl"
+msgid "Enable insecure argument for the initial curl/wget"
 msgstr ""
 
 msgid "Enable rebuild on next host boot"
@@ -3691,6 +3697,9 @@ msgid "Forums"
 msgstr ""
 
 msgid "Found %{count} reports from the last %{days} days"
+msgstr ""
+
+msgid "FreeIPA"
 msgstr ""
 
 msgid "Full"
@@ -4740,6 +4749,9 @@ msgid "Image ID"
 msgstr "Image ID"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
+msgstr ""
+
+msgid "Image not found"
 msgstr ""
 
 msgid "Image path"
@@ -7884,7 +7896,7 @@ msgstr ""
 msgid "Remove widget"
 msgstr ""
 
-msgid "Removed %{from} to %{to}"
+msgid "Removed %{from} from %{to}"
 msgstr ""
 
 msgid "Removed assignment of host group from %s host"
@@ -8584,13 +8596,13 @@ msgstr ""
 msgid "Set IP addresses for %s"
 msgstr ""
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr ""
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr ""
 
 msgid "Set a randomly generated password on the display connection"
+msgstr ""
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
 msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
@@ -8681,6 +8693,9 @@ msgid "Shortcuts"
 msgstr ""
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
+msgstr ""
+
+msgid "Should the value be hidden"
 msgstr ""
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
@@ -9681,7 +9696,7 @@ msgstr ""
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr ""
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
 msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
@@ -9706,6 +9721,9 @@ msgid "The data deletion can not be undone, are you sure you want to proceed?"
 msgstr ""
 
 msgid "The default administrator email address"
+msgstr ""
+
+msgid "The download utility to use during host registration"
 msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
@@ -10440,6 +10458,9 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr ""
 
@@ -10477,9 +10498,6 @@ msgid "Unknown records found in the database"
 msgstr ""
 
 msgid "Unknown status: %s"
-msgstr ""
-
-msgid "Unkown '%{klass}' resource class"
 msgstr ""
 
 msgid "Unlimited?"

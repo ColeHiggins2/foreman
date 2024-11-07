@@ -1872,6 +1872,9 @@ msgstr "Copiado en el portapapeles"
 msgid "Copied!"
 msgstr "¡Copiado!"
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr "Copiar al portapapeles"
 
@@ -2832,6 +2835,9 @@ msgstr "Descargar VMRC"
 msgid "Download generated report"
 msgstr "Descargar informe generado"
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr "Descarga un informe generado"
 
@@ -2949,8 +2955,8 @@ msgstr "Habilitar alertas para los hosts seleccionados"
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr "Habilitar si es un alias o una interfaz VLAN, tenga en cuenta que el alias solo se puede utilizar con la subred de modo de inicio estático."
 
-msgid "Enable insecure argument for the initial curl"
-msgstr "Habilitar argumento inseguro para el curl inicial"
+msgid "Enable insecure argument for the initial curl/wget"
+msgstr ""
 
 msgid "Enable rebuild on next host boot"
 msgstr "Habilitar reconstrucción en el siguiente arranque"
@@ -3755,6 +3761,9 @@ msgstr "Foros"
 
 msgid "Found %{count} reports from the last %{days} days"
 msgstr "Encontrado %{count} informes de los últimos %{days} días"
+
+msgid "FreeIPA"
+msgstr ""
 
 msgid "Full"
 msgstr "Completo"
@@ -4809,6 +4818,9 @@ msgstr "ID de Imagen"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
 msgstr "ID de la imagen facilitado por el recurso de cómputo, ejemplo: ami-.."
+
+msgid "Image not found"
+msgstr ""
 
 msgid "Image path"
 msgstr "Ruta de la imagen"
@@ -7969,8 +7981,8 @@ msgstr "Eliminar la etiqueta"
 msgid "Remove widget"
 msgstr "Eliminar el widget"
 
-msgid "Removed %{from} to %{to}"
-msgstr "Eliminado %{from} a %{to}"
+msgid "Removed %{from} from %{to}"
+msgstr ""
 
 msgid "Removed assignment of host group from %s host"
 msgid_plural "Removed assignment of host group from %s hosts"
@@ -8672,14 +8684,14 @@ msgstr "Establezca el parámetro 'host_registration_remote_execution' para el ho
 msgid "Set IP addresses for %s"
 msgstr "Configurar direcciones IP para %s"
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr "Establece un proxy para todas las conexiones HTTP salientes de Foreman. Los proxies de todo el sistema deben ser configurados a nivel del sistema operativo."
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr "Definir una contraseña generada en forma aleatoria en la conexión de la pantalla de VNC"
 
 msgid "Set a randomly generated password on the display connection"
 msgstr "Configurar una contraseña generada en forma  aleatoria  en la conexión de la pantalla"
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
+msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
 msgstr "Definir nombres de hosts para los que las solicitudes no tendrán proxy. Las solicitudes al host local se excluyen de manera predeterminada."
@@ -8770,6 +8782,9 @@ msgstr ""
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
 msgstr "¿Debería ejecutarse `foreman-rake db:seed` la próxima vez que se ejecuten los módulos del instalador?"
+
+msgid "Should the value be hidden"
+msgstr "En caso de que el valor esté oculto"
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
 msgstr "¿Debería ocultarse el valor a los usuarios? Es útil para valores de entrada sensibles como las contraseñas. Solo se aplica a los tipos de valores sin formato."
@@ -9771,8 +9786,8 @@ msgstr "El código Ruby dentro de las etiquetas ERB suele contener expresiones. 
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr "El algoritmo utilizado para codificar el JWT en el proveedor de OpenID."
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
-msgstr "El proceso de autenticación requiere actualmente un proveedor LDAP, como {FreeIPA}, {OpenLDAP} o {Microsoft}."
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
+msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
 msgstr "La fuente de autenticación de sus grupos de usuarios externos no pudo conectarse a LDAP con las credenciales proporcionadas. Corrobore que las credenciales sigan siendo válidas."
@@ -9797,6 +9812,9 @@ msgstr "La eliminación de datos no puede deshacerse, ¿está seguro de que quie
 
 msgid "The default administrator email address"
 msgstr "La dirección de correo electrónico predeterminada del administrador"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr "La última entrada, Sistema Operativo por defecto, puede configurarse editando la página %s."
@@ -10537,6 +10555,9 @@ msgstr ""
 msgid "Unknown"
 msgstr "Desconocido"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr "Tipo de IPAM desconocido; no se puede continuar"
 
@@ -10575,9 +10596,6 @@ msgstr "Se encontraron registros desconocidos en la base de datos"
 
 msgid "Unknown status: %s"
 msgstr "estado desconocido"
-
-msgid "Unkown '%{klass}' resource class"
-msgstr "Clase de recurso desconocida '%{klass}'"
 
 msgid "Unlimited?"
 msgstr "¿Ilimitado?"
