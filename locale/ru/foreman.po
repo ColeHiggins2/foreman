@@ -1849,6 +1849,9 @@ msgstr ""
 msgid "Copied!"
 msgstr "Скопировано!"
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr "Скопировано в буфер обмена"
 
@@ -2810,6 +2813,9 @@ msgstr ""
 msgid "Download generated report"
 msgstr ""
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr ""
 
@@ -2927,7 +2933,7 @@ msgstr "Включить уведомления для выбранных узл
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr "Включено, если это псевдоним или VLAN интерфейс, заметьте, что псевдоним может быть использован только с подсетью режима статической загрузки"
 
-msgid "Enable insecure argument for the initial curl"
+msgid "Enable insecure argument for the initial curl/wget"
 msgstr ""
 
 msgid "Enable rebuild on next host boot"
@@ -3733,6 +3739,9 @@ msgstr "Форумы"
 
 msgid "Found %{count} reports from the last %{days} days"
 msgstr "Обнаружено %{count} отчетов за последние %{days} дней"
+
+msgid "FreeIPA"
+msgstr ""
 
 msgid "Full"
 msgstr "Полностью"
@@ -4782,6 +4791,9 @@ msgstr "Код образа"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
 msgstr "Код образа, выбранный ресурсом, например ami-..."
+
+msgid "Image not found"
+msgstr ""
 
 msgid "Image path"
 msgstr "Путь к образу"
@@ -7927,7 +7939,7 @@ msgstr ""
 msgid "Remove widget"
 msgstr ""
 
-msgid "Removed %{from} to %{to}"
+msgid "Removed %{from} from %{to}"
 msgstr ""
 
 msgid "Removed assignment of host group from %s host"
@@ -8627,14 +8639,14 @@ msgstr "Установите параметр \"host_registration_remote_executi
 msgid "Set IP addresses for %s"
 msgstr ""
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr ""
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr ""
 
 msgid "Set a randomly generated password on the display connection"
 msgstr "Создать случайный пароль при подключении к дисплею"
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
+msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
 msgstr ""
@@ -8725,6 +8737,9 @@ msgstr ""
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
 msgstr "Выполнить «foreman-rake db:seed» при следующем запуске модулей установки"
+
+msgid "Should the value be hidden"
+msgstr ""
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
 msgstr ""
@@ -9728,7 +9743,7 @@ msgstr ""
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr ""
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
 msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
@@ -9754,6 +9769,9 @@ msgstr ""
 
 msgid "The default administrator email address"
 msgstr "Адрес электронной почты администратора по умолчанию"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr "Стандартный шаблон для операционной системы можно настроить на странице %s."
@@ -10495,6 +10513,9 @@ msgstr ""
 msgid "Unknown"
 msgstr "Неизвестно"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr ""
 
@@ -10533,9 +10554,6 @@ msgstr ""
 
 msgid "Unknown status: %s"
 msgstr "Неизвестный статус: %s"
-
-msgid "Unkown '%{klass}' resource class"
-msgstr ""
 
 msgid "Unlimited?"
 msgstr "Не ограничено"
