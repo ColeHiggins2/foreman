@@ -4942,7 +4942,7 @@ msgid "Independent - Persistent"
 msgstr "Independente - Persistente"
 
 msgid "Information about the setting"
-msgstr ""
+msgstr "informacao sobre configuracao"
 
 msgid "Information about the updated setting"
 msgstr ""
