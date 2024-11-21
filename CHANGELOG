@@ -1,3 +1,17 @@
+2024-11-21	Cole Higgins <chiggins@redhat.com>
+	* Release 3.13.0-rc2
+	* i18n - extracting new, pulling from tx
+
+2024-11-20	Ewoud Kohl van Wijngaarden <ewoud@kohlvanwijngaarden.nl>
+	* Refs #38017 - Pin fog-libvirt to ~> 0.12.0
+
+2024-11-19	Ewoud Kohl van Wijngaarden <ewoud@kohlvanwijngaarden.nl>
+	* Fixes #37891 - Add enable-puppet8 parameter to provisioning templates
+
+2024-11-12	Evgeni Golov <evgeni@golov.de>
+	* use 3.13 for packit
+	* use Katello 4.15 stable branch for testing
+
 2024-11-07	Cole Higgins <chiggins@redhat.com>
 	* Release 3.13.0-rc1
 	* i18n - extracting new, pulling from tx
