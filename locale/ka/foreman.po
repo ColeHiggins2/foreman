@@ -1823,6 +1823,9 @@ msgstr "დაკოპირდა გაცვლის ბაფერში"
 msgid "Copied!"
 msgstr "კოპირებულია!"
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr "ბუფერში კოპირება"
 
@@ -2782,6 +2785,9 @@ msgstr "VMRC-ის გაშვება"
 msgid "Download generated report"
 msgstr "გენერირებული ანგარიშის გადმოწერა"
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr "გენერირებული ანგაირშის გადმოწერა"
 
@@ -2899,8 +2905,8 @@ msgstr "მონიშნული ჰოსტების გაფრთხ�
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr ""
 
-msgid "Enable insecure argument for the initial curl"
-msgstr "საწყისი curl-ის დაუცველი არგუმენტების ჩართვა"
+msgid "Enable insecure argument for the initial curl/wget"
+msgstr ""
 
 msgid "Enable rebuild on next host boot"
 msgstr "ჰოსტის შემდეგი ჩატვირთვისას მისი თავიდან აგება"
@@ -3702,6 +3708,9 @@ msgstr "ფორუმები"
 
 msgid "Found %{count} reports from the last %{days} days"
 msgstr "ბოლო %{days} დღეში ნაპოვნია %{count} ანგარიში"
+
+msgid "FreeIPA"
+msgstr ""
 
 msgid "Full"
 msgstr "სრული"
@@ -4751,6 +4760,9 @@ msgstr "ასლის ID"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
 msgstr "გამოთვლით რესურსის მიერ მოწოდებული ასლის ID. მაგ: ami-.."
+
+msgid "Image not found"
+msgstr ""
 
 msgid "Image path"
 msgstr "გამოსახულების ბილიკი"
@@ -7898,8 +7910,8 @@ msgstr "ჭდის წაშლა"
 msgid "Remove widget"
 msgstr "ვიჯეტის წაშლა"
 
-msgid "Removed %{from} to %{to}"
-msgstr "წაიშალა %{from}-დან %{to}-მდე"
+msgid "Removed %{from} from %{to}"
+msgstr ""
 
 msgid "Removed assignment of host group from %s host"
 msgid_plural "Removed assignment of host group from %s hosts"
@@ -8598,14 +8610,14 @@ msgstr "დააყენეთ \"host_registration_remote_execution\" პა�
 msgid "Set IP addresses for %s"
 msgstr "%s-ის P მისამართების დაყენება"
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr ""
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr "VNC-ზე შემთხვევითი პაროლის დაყენება"
 
 msgid "Set a randomly generated password on the display connection"
 msgstr "ეკრანის შეერთებაზე შემთხვევითი პაროლის დაყენება"
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
+msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
 msgstr ""
@@ -8696,6 +8708,9 @@ msgstr "მალსახმობები"
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
 msgstr ""
+
+msgid "Should the value be hidden"
+msgstr "უნდა იყოს თუ არა მნიშვნელობა დამალული"
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
 msgstr ""
@@ -9695,7 +9710,7 @@ msgstr ""
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr ""
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
 msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
@@ -9721,6 +9736,9 @@ msgstr "მონაცემების წაშლის დაბრუნ�
 
 msgid "The default administrator email address"
 msgstr "ადმინისტრატორის ელფოსტის ნაგულისხმები მისამართი"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr "საბოლოო ჩანაწერი, ოპერაციული სისტემის ნაგულისხმები, შეიძლება დაყენდეს %s გვერდის რედაქტირებით."
@@ -10458,6 +10476,9 @@ msgstr "გაერთიანებული"
 msgid "Unknown"
 msgstr "უცნობი"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr "IPAM-ის უცნობი ტიპი - გაგრძელება შეუძლებელია"
 
@@ -10496,9 +10517,6 @@ msgstr "ბაზაში ნაპოვნია უცნობი ჩან
 
 msgid "Unknown status: %s"
 msgstr "უცნობი სტატუსი: %s"
-
-msgid "Unkown '%{klass}' resource class"
-msgstr "რესურსების უცნობი კლასი: '%{klass}'"
 
 msgid "Unlimited?"
 msgstr "ულიმიტო?"

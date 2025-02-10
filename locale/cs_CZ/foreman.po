@@ -1827,6 +1827,9 @@ msgstr ""
 msgid "Copied!"
 msgstr ""
 
+msgid "Copy"
+msgstr ""
+
 msgid "Copy to clipboard"
 msgstr "Zkopírovat do schránky"
 
@@ -2786,6 +2789,9 @@ msgstr ""
 msgid "Download generated report"
 msgstr "Stáhnout si vytvořený výkaz"
 
+msgid "Download utility"
+msgstr ""
+
 msgid "Downloads a generated report"
 msgstr "Stáhne vytvořený výkaz"
 
@@ -2903,7 +2909,7 @@ msgstr "Zapnout výstrahy pro označené stroje"
 msgid "Enable if this is an alias or VLAN interface, note that alias can be used only with static boot mode subnet"
 msgstr ""
 
-msgid "Enable insecure argument for the initial curl"
+msgid "Enable insecure argument for the initial curl/wget"
 msgstr ""
 
 msgid "Enable rebuild on next host boot"
@@ -3703,6 +3709,9 @@ msgid "Forums"
 msgstr "Diskuzní fóra"
 
 msgid "Found %{count} reports from the last %{days} days"
+msgstr ""
+
+msgid "FreeIPA"
 msgstr ""
 
 msgid "Full"
@@ -4752,6 +4761,9 @@ msgid "Image ID"
 msgstr "Identifikátor obrazu"
 
 msgid "Image ID as provided by the compute resource, e.g. ami-.."
+msgstr ""
+
+msgid "Image not found"
 msgstr ""
 
 msgid "Image path"
@@ -7896,8 +7908,8 @@ msgstr ""
 msgid "Remove widget"
 msgstr ""
 
-msgid "Removed %{from} to %{to}"
-msgstr "Odebráno %{from} do %{to}"
+msgid "Removed %{from} from %{to}"
+msgstr ""
 
 msgid "Removed assignment of host group from %s host"
 msgid_plural "Removed assignment of host group from %s hosts"
@@ -8596,13 +8608,13 @@ msgstr ""
 msgid "Set IP addresses for %s"
 msgstr "Nastavit IP adresu pro %s"
 
-msgid "Set a proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
-msgstr ""
-
 msgid "Set a randomly generated password on the VNC display connection"
 msgstr ""
 
 msgid "Set a randomly generated password on the display connection"
+msgstr ""
+
+msgid "Set an HTTP(s) proxy for all outgoing HTTP(S) connections from Foreman. System-wide proxies must be configured at the operating system level."
 msgstr ""
 
 msgid "Set hostnames to which requests are not to be proxied. Requests to the local host are excluded by default."
@@ -8693,6 +8705,9 @@ msgid "Shortcuts"
 msgstr ""
 
 msgid "Should the `foreman-rake db:seed` be executed on the next run of the installer modules?"
+msgstr ""
+
+msgid "Should the value be hidden"
 msgstr ""
 
 msgid "Should the value be hidden from users? Useful for sensitive input values such as passwords. Only applicable to Plain value types."
@@ -9693,7 +9708,7 @@ msgstr ""
 msgid "The algorithm used to encode the JWT in the OpenID provider."
 msgstr ""
 
-msgid "The authentication process currently requires an LDAP provider, such as {FreeIPA}, {OpenLDAP} or {Microsoft}."
+msgid "The authentication process currently requires an LDAP provider, such as {Free_IPA}, {OpenLDAP} or {Microsoft}."
 msgstr ""
 
 msgid "The authentication source of your external user groups could not connect to LDAP with the provided credentials. Please verify the credentials are still valid."
@@ -9719,6 +9734,9 @@ msgstr ""
 
 msgid "The default administrator email address"
 msgstr "Výchozí e-mailová adresa správce"
+
+msgid "The download utility to use during host registration"
+msgstr ""
 
 msgid "The final entry, Operating System default, can be set by editing the %s page."
 msgstr ""
@@ -10454,6 +10472,9 @@ msgstr ""
 msgid "Unknown"
 msgstr "Neznámý"
 
+msgid "Unknown '%{klass}' resource class"
+msgstr ""
+
 msgid "Unknown IPAM type - can't continue"
 msgstr "Neznámý IPAM typ – není možné pokračovat"
 
@@ -10492,9 +10513,6 @@ msgstr ""
 
 msgid "Unknown status: %s"
 msgstr "Neznámý stav: %s"
-
-msgid "Unkown '%{klass}' resource class"
-msgstr ""
 
 msgid "Unlimited?"
 msgstr "Neomezeno?"
